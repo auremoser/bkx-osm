@@ -49,13 +49,22 @@ var width = 960,
     node.exit().remove();
 
     // Enter any new nodes.
-    node.enter().append("circle")
+    // node.enter().append("circle")
+        // .attr("class", "node")
+        // .attr("cx", function(d) { return d.x; })
+        // .attr("cy", function(d) { return d.y; })
+        // .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5;   })
+        // .style("fill", color)
+        // .on("click", click)
+        // .call(force.drag);
+    node.enter().append("image")
         .attr("class", "node")
-        .attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; })
-        .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5;   })
-        .style("fill", color)
-        .on("click", click)
+         .attr("xlink:href", "assets/medalla.png")
+         .attr("x", function(d) { console.log(d); return d.x; })
+         .attr("y", function(d) { return d.y; })
+         .attr("width", 16)
+         .attr("height", 16)
+         .on("click", click)
         .call(force.drag);
 
   }
@@ -66,8 +75,8 @@ var width = 960,
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
 
-    node.attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
+    node.attr("x", function(d) { return d.x - 8; })
+        .attr("y", function(d) { return d.y - 8; });
   }
 
   // Color leaf nodes #ff4455, and packages #ce1256 or #54278f.
