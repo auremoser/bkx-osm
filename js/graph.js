@@ -62,10 +62,15 @@ var width = 960,
          .attr("xlink:href", "assets/medalla.png")
          .attr("x", function(d) { console.log(d); return d.x; })
          .attr("y", function(d) { return d.y; })
-         .attr("width", 16)
-         .attr("height", 16)
+         .attr("width", 32)
+         .attr("height", 32)
          .on("click", click)
         .call(force.drag);
+
+    node.append("text")
+      .attr("dx", 12)
+      .attr("dy", ".35em")
+      .text(function(d) { return d.name })
 
   }
 
@@ -74,10 +79,12 @@ var width = 960,
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
-
-    node.attr("x", function(d) { return d.x - 8; })
-        .attr("y", function(d) { return d.y - 8; });
+    // subtract 8 to offset the image to center and the endpoint of the edge
+    node.attr("x", function(d) { return d.x - 16; })
+        .attr("y", function(d) { return d.y - 16; });
   }
+
+
 
   // Color leaf nodes #ff4455, and packages #ce1256 or #54278f.
   function color(d) {
