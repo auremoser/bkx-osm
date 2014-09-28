@@ -1,8 +1,8 @@
 {
-  "name": "bike",
+  "name": "bicycle",
   "children": [
     {
-      "name": "analytics",
+      "name": "foot",
       "children": [
         {
           "name": "cluster",
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "name": "graph",
+          "name": "barrier",
           "children": [
             {
               "name": "BetweennessCentrality",
@@ -51,7 +51,7 @@
           ]
         },
         {
-          "name": "optimization",
+          "name": "highway",
           "children": [
             {
               "name": "AspectRatioBanker",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "name": "animate",
+      "name": "crossing",
       "children": [
         {
           "name": "Easing",
@@ -114,8 +114,8 @@
           ]
         },
         {
-          "name": "ISchedulable",
-          "size": 1041
+          "name": "motorcar",
+          "size": 41879
         },
         {
           "name": "Parallel",
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "name": "data",
+      "name": "motorcar",
       "children": [
         {
           "name": "converters",
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "name": "display",
+      "name": "horse",
       "children": [
         {
           "name": "DirtySprite",
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "name": "flex",
+      "name": "motorcycle",
       "children": [
         {
           "name": "FlareVis",
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "name": "physics",
+      "name": "source",
       "children": [
         {
           "name": "DragForce",
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "name": "query",
+      "name": "information",
       "children": [
         {
           "name": "AggregateExpression",
@@ -523,7 +523,7 @@
       ]
     },
     {
-      "name": "scale",
+      "name": "tourism",
       "children": [
         {
           "name": "IScaleMap",
@@ -568,7 +568,7 @@
       ]
     },
     {
-      "name": "util",
+      "name": "access",
       "children": [
         {
           "name": "Arrays",
@@ -688,7 +688,7 @@
       ]
     },
     {
-      "name": "vis",
+      "name": "crossing_ref",
       "children": [
         {
           "name": "axis",
@@ -1031,8 +1031,16 @@
           ]
         },
         {
-          "name": "Visualization",
-          "size": 16540
+          "name": "hiking",
+          "size": 7545
+        },
+        {
+          "name": "motor_vehicle",
+          "size": "7527"
+        },
+        {
+          "name": "supervised",
+          "size": "5468"
         }
       ]
     }
