@@ -1,6 +1,6 @@
-var width = 960,
-      height = 700,
-      root;
+var width = 860,
+    height = 500,
+    root;
 
   var force = d3.layout.force()
       .size([width, height])
@@ -57,19 +57,25 @@ var width = 960,
     //     .style("fill", color)
     //     .on("click", click)
     //     .call(force.drag);
-    node.enter().append("image")
+
+    var g = node.enter().append("g")
+        .attr("transform", function(d) { console.log(d); return "translate(" + d.x + " " + d.y + ")"; });
+
+    g.append("image")
         .attr("class", "node")
          .attr("xlink:href", "assets/medalla.png")
-         .attr("x", function(d) { console.log(d); return d.x; })
-         .attr("y", function(d) { return d.y; })
+         .attr("x", - 16)
+         .attr("y", - 16)
          .attr("width", 32)
          .attr("height", 32)
          .on("click", click)
         .call(force.drag);
 
-    node.append("text")
+    g.append("text")
+      .attr("class", "labels")
       .attr("dx", 12)
       .attr("dy", ".35em")
+      .style({'pointer-events': 'none'})
       .text(function(d) { return d.name })
 
   }
@@ -79,9 +85,13 @@ var width = 960,
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
+
     // subtract 8 to offset the image to center and the endpoint of the edge
-    node.attr("x", function(d) { return d.x - 16; })
-        .attr("y", function(d) { return d.y - 16; });
+    // node.attr("x", function(d) { return d.x - 16; })
+    //    .attr("y", function(d) { return d.y - 16; });
+
+    node.attr("transform", function(d) { return "translate(" + d.x + " " + d.y + ")"; });
+
   }
 
 
