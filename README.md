@@ -8,7 +8,7 @@ Quick and dirty d3 visualization of OSM tags from the [Tag Info API](http://tagi
 
 Various iterations thus far have looked something like this, a tree diagram of the tags and their relative popularity pulled from Tag Info.
 
-![V1]()
+![V1](https://raw.githubusercontent.com/auremoser/bkx-osm/gh-pages/assets/bkx-v1.jpg)
 ![V2](https://raw.githubusercontent.com/auremoser/bkx-osm/gh-pages/assets/bkx-osm-larger-graph.jpg)
 ![V3](https://raw.githubusercontent.com/auremoser/bkx-osm/gh-pages/assets/bkx-osm-minigraph.jpg)
 
@@ -25,7 +25,7 @@ What it will likely illustrate:
 * create graphs of the tagging schema for 'micro communities' who can contribute their open data to OSM's schema
 * create a process for standardizing the folksonomic ingest of those data with a bikesotorming taxonomy for bike and pedestrian info
 
-![V1]()
+![V1](https://raw.githubusercontent.com/auremoser/bkx-osm/gh-pages/assets/bkx_v1.png)
 
 
 
