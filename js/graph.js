@@ -50,13 +50,13 @@ var width = 960,
 
     // Enter any new nodes.
     // node.enter().append("circle")
-        // .attr("class", "node")
-        // .attr("cx", function(d) { return d.x; })
-        // .attr("cy", function(d) { return d.y; })
-        // .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5;   })
-        // .style("fill", color)
-        // .on("click", click)
-        // .call(force.drag);
+    //     .attr("class", "node")
+    //     .attr("cx", function(d) { return d.x; })
+    //     .attr("cy", function(d) { return d.y; })
+    //     .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5;   })
+    //     .style("fill", color)
+    //     .on("click", click)
+    //     .call(force.drag);
     node.enter().append("image")
         .attr("class", "node")
          .attr("xlink:href", "assets/medalla.png")
