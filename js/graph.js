@@ -1,5 +1,5 @@
-var width = 860,
-    height = 500,
+var width = 960,
+    height = 700,
     root;
 
   var force = d3.layout.force()
@@ -13,7 +13,7 @@ var width = 860,
   var link = svg.selectAll(".link"),
       node = svg.selectAll(".node");
 
-  d3.json("graph.json", function(error, json) {
+  d3.json("data/tree.json", function(error, json) {
     root = json;
     update();
   });
