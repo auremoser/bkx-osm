@@ -1,0 +1,2549 @@
+{
+    "name": "bicycle",
+    "children": [
+        {
+            "name": "name",
+            "percent": 0.5618000000000001,
+            "size": 168,
+            "children": [
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10
+                }
+            ]
+        },
+        {
+            "name": "amenity",
+            "percent": 0.2921,
+            "size": 87,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10
+                }
+            ]
+        },
+        {
+            "name": "addr:housenumber",
+            "percent": 0.21350000000000002,
+            "size": 64,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10
+                }
+            ]
+        },
+        {
+            "name": "addr:street",
+            "percent": 0.21350000000000002,
+            "size": 64,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168,
+                    "children": [
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10
+                }
+            ]
+        },
+        {
+            "name": "addr:city",
+            "percent": 0.1573,
+            "size": 47,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168,
+                    "children": [
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "addr:country",
+                            "percent": 0.0337,
+                            "size": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:street",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        },
+                        {
+                            "name": "addr:city",
+                            "percent": 0.1573,
+                            "size": 47
+                        },
+                        {
+                            "name": "highway",
+                            "percent": 0.1348,
+                            "size": 40
+                        },
+                        {
+                            "name": "ref",
+                            "percent": 0.10110000000000001,
+                            "size": 30
+                        },
+                        {
+                            "name": "place",
+                            "percent": 0.08990000000000001,
+                            "size": 26
+                        },
+                        {
+                            "name": "source",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "wheelchair",
+                            "percent": 0.0787,
+                            "size": 23
+                        },
+                        {
+                            "name": "addr:postcode",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "ele",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shelter",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "shop",
+                            "percent": 0.0674,
+                            "size": 20
+                        },
+                        {
+                            "name": "operator",
+                            "percent": 0.0562,
+                            "size": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "highway",
+            "percent": 0.1348,
+            "size": 40
+        },
+        {
+            "name": "ref",
+            "percent": 0.10110000000000001,
+            "size": 30,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10
+                }
+            ]
+        },
+        {
+            "name": "place",
+            "percent": 0.08990000000000001,
+            "size": 26,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10
+                }
+            ]
+        },
+        {
+            "name": "source",
+            "percent": 0.0787,
+            "size": 23,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10
+                }
+            ]
+        },
+        {
+            "name": "wheelchair",
+            "percent": 0.0787,
+            "size": 23,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10
+                }
+            ]
+        },
+        {
+            "name": "addr:postcode",
+            "percent": 0.0674,
+            "size": 20
+        },
+        {
+            "name": "ele",
+            "percent": 0.0674,
+            "size": 20,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10
+                }
+            ]
+        },
+        {
+            "name": "shelter",
+            "percent": 0.0674,
+            "size": 20
+        },
+        {
+            "name": "shop",
+            "percent": 0.0674,
+            "size": 20,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10
+                }
+            ]
+        },
+        {
+            "name": "operator",
+            "percent": 0.0562,
+            "size": 16,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "addr:country",
+                    "percent": 0.0337,
+                    "size": 10
+                }
+            ]
+        },
+        {
+            "name": "addr:country",
+            "percent": 0.0337,
+            "size": 10,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:street",
+                    "percent": 0.21350000000000002,
+                    "size": 64
+                },
+                {
+                    "name": "addr:city",
+                    "percent": 0.1573,
+                    "size": 47
+                },
+                {
+                    "name": "highway",
+                    "percent": 0.1348,
+                    "size": 40
+                },
+                {
+                    "name": "ref",
+                    "percent": 0.10110000000000001,
+                    "size": 30
+                },
+                {
+                    "name": "place",
+                    "percent": 0.08990000000000001,
+                    "size": 26
+                },
+                {
+                    "name": "source",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "wheelchair",
+                    "percent": 0.0787,
+                    "size": 23
+                },
+                {
+                    "name": "addr:postcode",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "ele",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shelter",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "shop",
+                    "percent": 0.0674,
+                    "size": 20
+                },
+                {
+                    "name": "operator",
+                    "percent": 0.0562,
+                    "size": 16
+                }
+            ]
+        }
+    ]
+}
