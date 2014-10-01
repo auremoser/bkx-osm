@@ -3,9 +3,9 @@
 var fs = require('fs');
 var http = require('http');
 
-var TOTAL_LEVELS = 16;
+var TOTAL_LEVELS = 5;
 var currentLevel = 0;
-var ITEMS_PER_QUERY = 16;
+var ITEMS_PER_QUERY = 3;
 var MIN_SIZE = 10;
 var MAX_SIZE = 300;
 var KEYWORD = 'bicycle';
@@ -37,18 +37,18 @@ var onRequestResponse = function(keyword, output, response) {
 	console.log('onRequestResponse for', keyword, '\n', output);
 	var str = '';
 
-	//another chunk of data has been recieved, so append it to `str`
+	// another chunk of data has been reçu! so append it to `str`
 	response.on('data', function(chunk) {
 		str += chunk;
 	});
 
-	//the whole response has been recieved, so we just print it out here
+	// the whole response has been reçu, print it out here
 	response.on('end', function() {
 		var taginfo = JSON.parse(str);
 		output.name = keyword;
 		output.children = [];
 		taginfo.data.map(function(item){
-			//We should actually store all keywords and check if indexOf
+			// maybe should actually store all keywords and check if indexOf
 			if(item.other_key === keyword) return;
 			output.children.push({
 				name:item.other_key,
