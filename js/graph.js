@@ -1,5 +1,5 @@
 var width = 960,
-    height = 720,
+    height = 620,
     root;
 
   var force = d3.layout.force()
@@ -69,7 +69,7 @@ var width = 960,
 
     g.append("image")
         .attr("class", "node")
-         .attr("xlink:href", "assets/medalla.png")
+         .attr("xlink:href", "assets/graph-child-2.png")
          .attr("x", - 16)
          .attr("y", - 16)
          .attr("width", 32)
