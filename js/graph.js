@@ -1,12 +1,14 @@
 var width = 960,
-    height = 700,
+    height = 720,
     root;
 
   var force = d3.layout.force()
       .size([width, height])
+      .linkDistance(50)
+      .charge(-40)
       .on("tick", tick);
 
-  var svg = d3.select("body").append("svg")
+  var svg = d3.select("#graph").append("svg")
       .attr("width", width)
       .attr("height", height);
 
@@ -48,7 +50,7 @@ var width = 960,
     // Exit any old nodes.
     node.exit().remove();
 
-    // Enter any new nodes.
+    // Enter any new nodes, original, just nodes not text
     // node.enter().append("circle")
     //     .attr("class", "node")
     //     .attr("cx", function(d) { return d.x; })
@@ -60,6 +62,10 @@ var width = 960,
 
     var g = node.enter().append("g")
         .attr("transform", function(d) { console.log(d); return "translate(" + d.x + " " + d.y + ")"; });
+
+    // Create group so you can attach text + image to nodes
+    // Create node group to size nodes by
+
 
     g.append("image")
         .attr("class", "node")

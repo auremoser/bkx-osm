@@ -3,74 +3,120 @@
 * Bikestorming
 * @auremoser -->
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>OSM + BKX</title>
-<link rel="shortcut icon" href="https://raw.githubusercontent.com/auremoser/bkx-osm/master/assets/medalla.png">
-<style>
-  h1,h2,h4,h6,li,a {
-    font-family: "Helvetica Neue",Ariel,sans-serif  !important;
-  }
+<html>
+  <title>OSM + BKX</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/normalize.css">
+  <link rel="stylesheet" href="assets/foundation.min.css">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/auremoser/bkx-  osm/master/assets/medalla.png">
+  <style>
+    html, body {
+      background-color: #252525;
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      top: 10px;
+    }
 
-  html, body {
-    background-color: #252525;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    font-family: "Helvetica Neue", Helvetica;
-  }
+    h1,h2,h4,h6,li,a {
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      color: #ff4455;
+    }
 
-  .node {
-    cursor: pointer;
-    stroke: #4d004b;
-    stroke-width: 1.5px;
-  }
+    .node {
+      cursor: pointer;
+      stroke: #4d004b;
+      stroke-width: 1.5px;
+    }
 
-  .link {
-    fill: none;
-    stroke: #ff7783;
-    stroke-width: 1.5px;
-  }
-  #key {
-    position: absolute;
-    padding: 5px;
-    z-index: 99999;
-    width: 300px;
-    height: 740px;
-    right: 100px;
-    top: 30px;
-    background-color: rgba(0,0,0,0.1);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #ff7783;
-    /*pointer-events: none;*/
-  }
+    .link {
+      fill: none;
+      stroke: #ff7783;
+      stroke-width: 1.5px;
+    }
 
-  #key > p {
-    padding: 5px;
-    margin: 0 0;
-    font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-  }
+    .labels {
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      font-size: 10px;
+      text-shadow: 0 1px 0 #ff99a1, 1px 0 0 #ff99a1, -1px 0 0 #ff99a1, 0 -1px 0 #ff99a1;
+      pointer-events: none;
+    }
 
-  #key > h1, h2 {
-    padding: 10px;
-    margin: 0 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    text-shadow: 0 1px 0 #ff4455, 1px 0 0 #ff4455, -1px 0 0 #ff4455, 0 -1px 0 #ff4455;
-  }
-</style>
+    #graph {
+      margin: 0;
+      padding: 2px;
+    }
+
+    #key {
+      border: 3px, #ff4455;
+      float: left;
+      position: absolute;
+      padding: 5px;
+      z-index: 99999;
+      width: 300px;
+      height: 400px;
+      right: 100px;
+      top: 30px;
+      background-color: #d3d3d3;
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      /*pointer-events: none;*/
+    }
+
+    #key > p, h5 {
+      padding: 5px;
+      margin: 0 0;
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+    }
+
+    #key > h1, h2 {
+      padding: 10px;
+      margin: 0 0;
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      text-align: center;
+      text-shadow: 0 .5px 0 #ff4455, .5px 0 0 #ff4455, -.5px 0 0 #ff4455, 0 -.5px 0 #ff4455;
+    }
+  </style>
 <body>
-<script type="text/javascript" src="libs/d3.v3.min.js"></script>
-<!-- <div id="key">
-  <h1>BKX <> OSM</h1>
-  <p>These are the Sets, Keys, and Tags of interest to cycling in  <a href="http://www.openstreetmap.org" target="_blank">Open Street Map</a>.</p>
-  <p>Made by <a href="http://bikestorming.org/" target="_blank">Bikestorming + OSM</a> | <a href="https://github.com/auremoser/bkx-osm" target="_blank">Github</a> | <a href="https://github.com/auremoser/bkx-osm/blob/master/README.md" target="_blank">About</a></p>
-  <h2 id="add-date"></h2>
-    <h3 class="bikepaths">CycleStreets Network</h3>
-      <div id="tags-bikepaths"></div>
-    <h3 class="bikrentals">Bike Rentals</h3>
-      <div id="tags-bikrentals"></div>
-    <h3 class="bikparking">Bike Parking</h3>
-      <div id="tags-bikeparking"></div>
-</div> -->
-<script src="js/graph.js"></script>
+  <script type="text/javascript" src="libs/d3.v3.min.js"></script>
+
+  <div class="row">
+     <div class="large-12 columns">
+        <!-- HEADER BIKE/PED DATA TOGGLE -->
+         <header class="row">
+          <div class="large-12 columns"><br/>
+           <div class="row">
+             <div class="large-12 columns">
+                 <ul class="inline-list right">
+                   <li><a href="#">Bicycle</a></li>
+                   <li><a href="#">Pedestrian</a></li>
+                   <li><a href="#">Public Space</a></li>
+                 </ul>
+                 <h4> OSM FOLKSONOMY </h4><hr/>
+             </div>
+           </div>
+          </div>
+        </header>
+      </div>
+      <!-- GRAPH -->
+        <div class="row">
+          <div class="large-6 columns">
+            <div id="graph"><script src="js/graph.js"></script></div>
+       <!--    </div> -->
+           <!-- INFO KEY -->
+ <!--          <div class="large-6 columns">
+             <h2 class="show-for-small">OSM Folksonomy<hr/></h2>
+             <div class="panel" style="background-color: #ff99a1">
+               <h4 class="hide-for-small">OSM Folksonomy<hr/></h4>
+                <h5 class="subheader">These are the Node, Way and Relation tags available on searching "bicycle" data in  <a href ="http://www.openstreetmap.org" target="_blank">Open Street Map's</a> folksonomic tagging  schema available via the <a href="http://taginfo.openstreetmap.org/" target="_blank">Tag Info API</a>.</h5>
+                <h6 class="subheader">Made by <a href="http://bikestorming.org/" target="_blank">Bikestorming + OSM</a> | <a href ="https://github.com/auremoser/bkx-osm" target="_blank">Github</a> | <a href="https://github.  com/auremoser/bkx-osm/blob/master/README.md" target="_blank">About</a></h6>
+                <a href="#" class="small button secondary">Terminology</a>
+                <a href="#" class="small button secondary">Popularity</a>
+             </div> -->
+          </div> <!-- END INFO KEY 5-COLUMNS -->
+         </div> <!-- END ROW MAIN CONTENT-->
+     </div> <!-- END 12 LARGE COLUMNS -->
+   </div> <!-- OUTERMOST ROW -->
+
+</body>
+</html>
