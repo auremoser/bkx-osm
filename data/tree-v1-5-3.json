@@ -1,0 +1,176 @@
+{
+    "name": "bicycle",
+    "children": [
+        {
+            "name": "name",
+            "percent": 0.5618000000000001,
+            "size": 168,
+            "children": [
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        }
+                    ]
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "amenity",
+            "percent": 0.2921,
+            "size": 87,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168,
+                    "children": [
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87,
+                            "children": [
+                                {
+                                    "name": "name",
+                                    "percent": 0.5618000000000001,
+                                    "size": 168
+                                },
+                                {
+                                    "name": "addr:housenumber",
+                                    "percent": 0.21350000000000002,
+                                    "size": 64
+                                }
+                            ]
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64,
+                            "children": [
+                                {
+                                    "name": "name",
+                                    "percent": 0.5618000000000001,
+                                    "size": 168
+                                },
+                                {
+                                    "name": "amenity",
+                                    "percent": 0.2921,
+                                    "size": 87
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "addr:housenumber",
+                    "percent": 0.21350000000000002,
+                    "size": 64,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168
+                        },
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "addr:housenumber",
+            "percent": 0.21350000000000002,
+            "size": 64,
+            "children": [
+                {
+                    "name": "name",
+                    "percent": 0.5618000000000001,
+                    "size": 168,
+                    "children": [
+                        {
+                            "name": "amenity",
+                            "percent": 0.2921,
+                            "size": 87
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64
+                        }
+                    ]
+                },
+                {
+                    "name": "amenity",
+                    "percent": 0.2921,
+                    "size": 87,
+                    "children": [
+                        {
+                            "name": "name",
+                            "percent": 0.5618000000000001,
+                            "size": 168,
+                            "children": [
+                                {
+                                    "name": "amenity",
+                                    "percent": 0.2921,
+                                    "size": 87
+                                },
+                                {
+                                    "name": "addr:housenumber",
+                                    "percent": 0.21350000000000002,
+                                    "size": 64
+                                }
+                            ]
+                        },
+                        {
+                            "name": "addr:housenumber",
+                            "percent": 0.21350000000000002,
+                            "size": 64,
+                            "children": [
+                                {
+                                    "name": "name",
+                                    "percent": 0.5618000000000001,
+                                    "size": 168
+                                },
+                                {
+                                    "name": "amenity",
+                                    "percent": 0.2921,
+                                    "size": 87
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
