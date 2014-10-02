@@ -3,83 +3,138 @@
 * Bikestorming
 * @auremoser -->
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>OSM + BKX</title>
-<link rel="shortcut icon" href="https://raw.githubusercontent.com/auremoser/bkx-osm/master/assets/medalla.png">
-<style>
-  h1,h2,h4,h6,li,a {
-    font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
-  }
+<html>
+  <title>OSM + BKX</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/normalize.css">
+  <link rel="stylesheet" href="assets/foundation.min.css">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/auremoser/bkx-osm/master/assets/favicon.ico">
+  <style>
+    @font-face {
+        font-family: Commodore;
+        src: url(fonts/commodore_pixelized/commodore.ttf);
+    }
+    @font-face {
+        font-family: Commodore;
+        src: url(fonts/commodore_pixelized/commodore-webfont.ttf);
+    }
+    html, body {
+      /*background-color: #252525;*/
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      top: 10px;
+      background: url(assets/space-background.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
 
-  html, body {
-    background-color: #252525;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
-  }
+    h1,h5,h6,li,a {
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      color: #ff4455;
+    }
 
-  .node {
-    cursor: pointer;
-    stroke: #4d004b;
-    stroke-width: 1.5px;
-  }
+    p {
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      color: #ff99a1;
+      text-align: center;
+    }
 
-  .link {
-    fill: none;
-    stroke: #ff7783;
-    stroke-width: 1.5px;
-  }
+    h2,h3,h4{
+      font-family: "Commodore";
+      color: #ff4455;
+    }
 
-  .labels {
-    font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
-    font-size: 10px;
-    text-shadow: 0 1px 0 #ff99a1, 1px 0 0 #ff99a1, -1px 0 0 #ff99a1, 0 -1px 0 #ff99a1;
-    pointer-events: none;
-  }
+    .node {
+      cursor: pointer;
+      stroke: #4d004b;
+      stroke-width: 1.5px;
+    }
 
-  #key {
-    border: 3px, #ff4455;
-    position: absolute;
-    padding: 5px;
-    z-index: 99999;
-    width: 300px;
-    height: 280px;
-    right: 100px;
-    top: 30px;
-    background-color: #ff99a1;
-    font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
-    /*pointer-events: none;*/
-  }
+    .link {
+      fill: none;
+      stroke: #ff7783;
+      stroke-width: 1.5px;
+    }
 
-  #key > p, h5 {
-    padding: 5px;
-    margin: 0 0;
-    font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
-    text-align: center;
-  }
+    .labels {
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      font-size: 10px;
+      text-shadow: 0 1px 0 #ff99a1, 1px 0 0 #ff99a1, -1px 0 0 #ff99a1, 0 -1px 0 #ff99a1;
+      pointer-events: none;
+    }
 
-  #key > h1, h2 {
-    padding: 10px;
-    margin: 0 0;
-    font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
-    text-align: center;
-    text-shadow: 0 .5px 0 #ff4455, .5px 0 0 #ff4455, -.5px 0 0 #ff4455, 0 -.5px 0 #ff4455;
-  }
-</style>
+    #graph {
+      margin: 0 0;
+      padding: 0 0;
+    }
+
+    #key {
+      border: 3px, #ff4455;
+      float: left;
+      position: absolute;
+      padding: 5px;
+      z-index: 99999;
+      width: 300px;
+      height: 400px;
+      right: 100px;
+      top: 30px;
+      background-color: none;
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      /*pointer-events: none;*/
+    }
+
+    #key > p, h5 {
+      font-color: #ffff;
+      padding: 5px;
+      margin: 0 0;
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      text-align: center;
+    }
+
+    #key > h1, h2 {
+      padding: 10px;
+      margin: 0 0;
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      text-align: center;
+      text-shadow: 0 .5px 0 #ff4455, .5px 0 0 #ff4455, -.5px 0 0 #ff4455, 0 -.5px 0 #ff4455;
+    }
+  </style>
 <body>
-<script type="text/javascript" src="libs/d3.v3.min.js"></script>
-<div id="key">
-  <h1>OSM Bike Folksonomy</h1>
-  <p>These are the Node, Way and Relation tags available on searching "bicycle" data in   <a href="http://www.openstreetmap.org" target="_blank">Open Street Map's</a> folksonomic tagging schema available via the <a href="http://taginfo.openstreetmap.org/" target="_blank">Tag Info API</a>.</p>
-  <br>
-  <h5>Made by <a href="http://bikestorming.org/" target="_blank">Bikestorming + OSM</a> | <a href="https://github.com/auremoser/bkx-osm" target="_blank">Github</a> | <a href="https://github.com/auremoser/bkx-osm/blob/master/README.md" target="_blank">About</a></h5>
-  <!-- <h2 id="add-date"></h2>
-    <h4 class="bikepaths">CycleStreets Network</h4>
-      <div id="tags-bikepaths"></div>
-    <h4 class="bikrentals">Bike Rentals</h4>
-      <div id="tags-bikrentals"></div>
-    <h4 class="bikparking">Bike Parking</h4>
-      <div id="tags-bikeparking"></div> -->
-</div>
-<script src="js/graph.js"></script>
+  <script type="text/javascript" src="libs/d3.v3.min.js"></script>
+
+  <div class="row">
+     <div class="large-12 columns">
+        <!-- HEADER BIKE/PED/PUBLIC SPACE DATA TOGGLE -->
+         <header class="row">
+          <div class="large-12 columns"><br/>
+           <div class="row">
+             <div class="large-12 columns">
+                 <ul class="inline-list right">
+                   <li><a href="#">Bicycle <img src="assets/bike-data-in-osm.png" height="80" width="80"></a></li>
+                   <li><a href="#">Pedestrian<img src="assets/walking-data-in-osm.png" height="80" width="80"></a></li>
+                   <li><a href="#">Public Space<img src="assets/public-space-in-osm.png" height="80" width="80"></a></li>
+                 </ul>
+                 <h2>OSM FOLKSONOMY</h2>
+                 <p>Tags available on searching <a href ="http://www.openstreetmap.org" target="_blank">Open Street Map's</a> folksonomic tagging schema via the <a href="http://taginfo.openstreetmap.org/" target="_blank">Tag Info API</a>.
+                 | <a href ="https://github.com/auremoser/bkx-osm" target="_blank">Github</a> | <a href="https://github.com/auremoser/bkx-osm/blob/master/README.md" target="_blank">About</a></p>
+             </div>
+           </div>
+          </div>
+        </header>
+      </div>
+      <br/>
+      <!-- GRAPH -->
+        <div class="row">
+          <div class="large-6 columns" style="border: 2px #ff4455">
+            <div id="graph"><script src="js/graph.js"></script></div>
+          </div> <!-- END INFO KEY 6-COLUMNS -->
+         </div> <!-- END ROW MAIN CONTENT-->
+     </div> <!-- END 12 LARGE COLUMNS -->
+   </div> <!-- OUTERMOST ROW -->
+
+</body>
+</html>
