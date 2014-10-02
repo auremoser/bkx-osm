@@ -4,8 +4,8 @@ var width = 960,
 
   var force = d3.layout.force()
       .size([width, height])
-      .linkDistance(50)
-      .charge(-40)
+      // .linkDistance(1)
+      // .charge(0)
       .on("tick", tick);
 
   var svg = d3.select("#graph").append("svg")
@@ -17,14 +17,14 @@ var width = 960,
 
   d3.json("data/tree.json", function(error, json) {
     root = json;
+    d3.layout.tree().nodes(root);
     update();
   });
 
+
   function update() {
-        d3.layout.tree().nodes(root);
     var nodes = flatten(root);
     var links = d3.layout.tree().links(nodes);
-
 
     // Restart the force layout.
     force
@@ -59,11 +59,11 @@ var width = 960,
     //     .attr("cy", function(d) { return d.y; })
     //     .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5;   })
     //     .style("fill", color)
-    //     .on("click", click)
-    //     .call(force.drag);
 
     var g = node.enter().append("g")
-        .attr("transform", function(d) { return "translate(" + d.x + " " + d.y + ")"; });
+        .attr("transform", function(d) { return "translate(" + d.x + " " + d.y + ")"; })
+        .on("click", click)
+        .call(force.drag);
 
     // Create group so you can attach text + image to nodes
     // Create node group to size nodes by
