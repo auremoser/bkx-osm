@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="assets/normalize.css">
   <link rel="stylesheet" href="assets/foundation.min.css">
-  <link rel="shortcut icon" href="https://raw.githubusercontent.com/auremoser/bkx-  osm/master/assets/graph-child-1.png">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/auremoser/bkx-osm/master/assets/graph-child-2.png">
   <style>
     @font-face {
         font-family: Commodore;
@@ -32,11 +32,18 @@
       background-size: cover;
     }
 
-    h1,h2,h4,h6,li,a{
+    h1,h5,h6,li,a {
       font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
       color: #ff4455;
     }
-    h4 {
+
+    p {
+      font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+      color: #ff99a1;
+      text-align: center;
+    }
+
+    h2,h3,h4{
       font-family: "Commodore";
       color: #ff4455;
     }
@@ -61,8 +68,8 @@
     }
 
     #graph {
-      margin: 0;
-      padding: 2px;
+      margin: 0 0;
+      padding: 0 0;
     }
 
     #key {
@@ -107,11 +114,13 @@
            <div class="row">
              <div class="large-12 columns">
                  <ul class="inline-list right">
-                   <li><a href="#">Bicycle</a></li>
-                   <li><a href="#">Pedestrian</a></li>
-                   <li><a href="#">Public Space</a></li>
+                   <li><a href="#">Bicycle <img src="assets/bike-data-in-osm.png" height="80" width="80"></a></li>
+                   <li><a href="#">Pedestrian<img src="assets/walking-data-in-osm.png" height="80" width="80"></a></li>
+                   <li><a href="#">Public Space<img src="assets/public-space-in-osm.png" height="80" width="80"></a></li>
                  </ul>
-                 <h4>OSM FOLKSONOMY</h4><hr/>
+                 <h2>OSM FOLKSONOMY</h2>
+                 <p>Tags available on searching <a href ="http://www.openstreetmap.org" target="_blank">Open Street Map's</a> folksonomic tagging schema via the <a href="http://taginfo.openstreetmap.org/" target="_blank">Tag Info API</a>.
+                 | <a href ="https://github.com/auremoser/bkx-osm" target="_blank">Github</a> | <a href="https://github.com/auremoser/bkx-osm/blob/master/README.md" target="_blank">About</a></p>
              </div>
            </div>
           </div>
@@ -119,29 +128,9 @@
       </div>
       <!-- GRAPH -->
         <div class="row">
-          <div class="large-6 columns">
+          <div class="large-6 columns" style="border: 2px #ff4455">
             <div id="graph"><script src="js/graph.js"></script></div>
-       <!--    </div> -->
-           <!-- INFO KEY -->
- <!--          <div class="large-6 columns">
-             <h2 class="show-for-small">OSM Folksonomy<hr/></h2>
-             <div class="panel" style="background-color: #ff99a1">
-               <h4 class="hide-for-small">OSM Folksonomy<hr/></h4>
-                <h5 class="subheader">These are the Node, Way and Relation tags available on searching "bicycle" data in  <a href ="http://www.openstreetmap.org" target="_blank">Open Street Map's</a> folksonomic tagging  schema available via the <a href="http://taginfo.openstreetmap.org/" target="_blank">Tag Info API</a>.</h5>
-                <h6 class="subheader">Made by <a href="http://bikestorming.org/" target="_blank">Bikestorming + OSM</a> | <a href ="https://github.com/auremoser/bkx-osm" target="_blank">Github</a> | <a href="https://github.  com/auremoser/bkx-osm/blob/master/README.md" target="_blank">About</a></h6>
-                <a href="#" class="small button secondary">Terminology</a>
-                <a href="#" class="small button secondary">Popularity</a>
-             </div> -->
           </div> <!-- END INFO KEY 6-COLUMNS -->
-           <footer class="row">
-            <div class="large-12 columns"><br/>
-             <div class="key">
-                   <p>Tags available on searching <a href ="http://www.openstreetmap.org" target="_blank">Open Street Map's</a> folksonomic tagging schema via the <a href="http://taginfo.openstreetmap.org/" target="_blank">Tag Info API</a>.
-                   | <a href ="https://github.com/auremoser/bkx-osm" target="_blank">Github</a> | <a href="https://github.com/auremoser/bkx-osm/blob/master/README.md" target="_blank">About</a></p>
-
-             </div>
-            </div>
-          </footer>
          </div> <!-- END ROW MAIN CONTENT-->
      </div> <!-- END 12 LARGE COLUMNS -->
    </div> <!-- OUTERMOST ROW -->
