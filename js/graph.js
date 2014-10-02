@@ -1,11 +1,11 @@
 var width = 960,
-    height = 620,
+    height = 720,
     root;
 
   var force = d3.layout.force()
       .size([width, height])
-      .linkDistance(50)
-      .charge(-40)
+      .linkDistance(20)
+      .charge(-100)
       .on("tick", tick);
 
   var svg = d3.select("#graph").append("svg")
@@ -17,12 +17,14 @@ var width = 960,
 
   d3.json("data/tree.json", function(error, json) {
     root = json;
+    d3.layout.tree().nodes(root);
     update();
   });
 
+
   function update() {
-    var nodes = flatten(root),
-        links = d3.layout.tree().links(nodes);
+    var nodes = flatten(root);
+    var links = d3.layout.tree().links(nodes);
 
     // Restart the force layout.
     force
@@ -57,25 +59,38 @@ var width = 960,
     //     .attr("cy", function(d) { return d.y; })
     //     .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5;   })
     //     .style("fill", color)
-    //     .on("click", click)
-    //     .call(force.drag);
 
     var g = node.enter().append("g")
-        .attr("transform", function(d) { console.log(d); return "translate(" + d.x + " " + d.y + ")"; });
+        .attr("transform", function(d) { return "translate(" + d.x + " " + d.y + ")"; })
+        .on("click", click)
+        .call(force.drag);
 
     // Create group so you can attach text + image to nodes
     // Create node group to size nodes by
 
 
-    g.append("image")
-        .attr("class", "node")
-         .attr("xlink:href", "assets/graph-child-2.png")
-         .attr("x", - 16)
-         .attr("y", - 16)
-         .attr("width", 32)
-         .attr("height", 32)
-         .on("click", click)
-        .call(force.drag);
+    g.append("circle")
+      .attr('cx', 0)
+      .attr('cy', 0)
+      .attr('r', 5)
+      .attr("r", function(d) { return Math.sqrt(d.size)})
+      .style('fill', function(d) {
+        console.log(d.depth)
+        return color(d.depth)
+      })
+
+    // g.append("image")
+    //     .attr("class", "node")
+    //      .attr("xlink:href", function(d) {
+    //         console.log(d)
+    //         return "assets/medalla.png"
+    //      })
+    //      .attr("x", - 16)
+    //      .attr("y", - 16)
+    //      .attr("width", 32)
+    //      .attr("height", 32)
+    //      .on("click", click)
+    //      .call(force.drag);
 
     g.append("text")
       .attr("class", "labels")
@@ -100,12 +115,12 @@ var width = 960,
 
   }
 
-
-
   // Color leaf nodes #ff4455, and packages #ce1256 or #54278f.
-  function color(d) {
-    return d._children ? "#54278f" : d.children ? "#ce1256" : "#ff4455  ";
-  }
+  // function color(d) {
+  //   return d._children ? "#54278f" : d.children ? "#ce1256" : "#ff4455  ";
+  // }
+  color = d3.scale.category10();
+
 
   // Toggle children on click.
   function click(d) {
